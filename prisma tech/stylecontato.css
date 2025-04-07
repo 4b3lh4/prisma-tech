@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+}
+td {
+    vertical-align: top;
+}
+.menu {
+    width: 150px;
+    background-color: #f8f8f8;
+    text-align: left;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.menu a:hover {
+    background-color: #ddd;
+}
+.content {
+    text-align: center;
+    padding-top: 30px;
+}
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.logo {
+    float: right;
+    margin: 10px;
+}
+.form-container {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: darkred;
+}
